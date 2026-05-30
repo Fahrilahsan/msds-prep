@@ -35,6 +35,6 @@ def fibonacci(n):
         return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(waste_time(1000000))
-print(fibonacci(10))
-print(fibonacci(10))  # second call — should be instant, pulled from cache
+# print(waste_time(1000000))
+# print(fibonacci(10))
+# print(fibonacci(10))  # second call — should be instant, pulled from cache
